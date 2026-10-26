@@ -398,6 +398,10 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [google/styleguide](https://github.com/google/styleguide) - Google's official style guides for C++, Java, Python, Go, Shell, and more; agent code style reference.
 - [deploy-cloudrun](https://github.com/google-github-actions/deploy-cloudrun) - GitHub Action to deploy containers to Google Cloud Run; CI/CD integration for agent services.
 - [terraform-google-three-tier-web-app](https://github.com/GoogleCloudPlatform/terraform-google-three-tier-web-app) - Terraform blueprint for a three-tier web app on GCP; reference for agent-facing cloud architecture.
+- [google-api-nodejs-client](https://github.com/googleapis/google-api-nodejs-client) - Google APIs Node.js client library; access all Google APIs from agents.
+- [google-cloud-node](https://github.com/googleapis/google-cloud-node) - Google Cloud Node.js client libraries monorepo.
+- [nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) - Official Google Cloud Node.js code samples for docs; reference for agent-generated GCP Node code.
+- [google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs) - Google Auth Library for Node.js; handles OAuth2, service accounts, and ADC for agent services.
 
 ### Python & ML
 
