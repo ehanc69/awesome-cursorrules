@@ -69,6 +69,11 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
     - [Other](#other)
     - [Documentation](#documentation)
     - [Utilities](#utilities)
+  - [Agent Skills &amp; Collections](#agent-skills--collections)
+    - [Skill Packs](#skill-packs)
+    - [Anthropic Official](#anthropic-official)
+    - [Google / Firebase](#google--firebase)
+    - [React Hooks &amp; Libraries](#react-hooks--libraries)
   - [Directories](#directories)
   - [How to Use](#how-to-use)
     - [Method One](#method-one)
@@ -285,12 +290,92 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 
 ### Utilities
 
-- [Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers) - A Python-based file watching system that automatically manages headers in text files and maintains a clean, focused project tree structure. Perfect for maintaining consistent file headers and documentation across your project, with special features to help LLMs maintain better project awareness.
+- [Cursor Watchful Headers](https://github.com/johnbenac/cursor-watchful-headers) - A Python-based file watching system that automatically manages headers in text files and maintains a clean, focused project tree structure.
+- [ripgrep](https://github.com/BurntSushi/ripgrep) - Extremely fast recursive grep, line-oriented search tool. Essential for AI-assisted code search.
+- [ripgrep-all](https://github.com/phiresky/ripgrep-all) - Extends ripgrep to search inside PDFs, E-Books, Office documents, archives, and more.
+- [LeaderF](https://github.com/Yggdroot/LeaderF) - Efficient fuzzy finder plugin for asynchronous searching in files, buffers, and more.
+- [bandit](https://github.com/PyCQA/bandit) - Python security linter; finds common security issues in Python code.
+- [ra-jit](https://github.com/indexable-inc/ra-jit) - JIT-accelerated Rust analyzer integration for AI-assisted development.
+- [origin-cli-asdf](https://github.com/anysphere/origin-cli-asdf) - asdf plugin for the Cursor Origin CLI.
+- [continuous-claude](https://github.com/AnandChowdhary/continuous-claude) - Run Claude in a continuous loop for automated AI-assisted workflows.
+- [google-indexing-script](https://github.com/goenning/google-indexing-script) - Script to get your site indexed on Google Search in less than 48 hours.
+- [harness2](https://github.com/google-research/harness2) - Google Research testing harness for LLM evaluation and agent workflows.
+- [cua](https://github.com/trycua/cua) - Cross-platform computer-use automation framework for AI agents.
+- [fablize](https://github.com/fivetaku/fablize) - Story-mode agent orchestration and prompt toolkit.
+- [FableClaudeMD](https://github.com/TheColliny/FableClaudeMDForOpus) - Claude.md and agent rules tuned for long-form narrative (Opus).
+- [fable-mode](https://github.com/mrtooher/fable-mode) - Fable narrative mode rules for Cursor agents.
+
+## Agent Skills & Collections
+
+### Skill Packs
+
+- [pstack (cursor/plugins)](https://github.com/cursor/plugins/tree/main/pstack) - Production-grade agent skill stack: TDD, architect, blast-radius, arena, interrogate, and more.
+- [maintain-verification-skill](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md) - Skill that keeps a project's verification skill and feature map in sync.
+- [create-verification-skill](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md) - Generates a project-local verification skill that drives your app the way a QA engineer would.
+- [verification-skill-example](https://github.com/poteto/verification-skill-example) - Reference implementation of a Cursor/Claude Code project verification skill.
+- [open-pstack](https://github.com/ericlitman/open-pstack) - Open-source port of the pstack agent skill suite.
+- [lauren-poteto-rules](https://github.com/unicodef1wn/lauren-poteto-rules) - Community rules inspired by the poteto-mode agent style.
+- [google/skills](https://github.com/google/skills) - Google's official agent skill definitions for Cursor and Claude Code.
+- [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) - Agent skills curated from Andrej Karpathy's coding principles.
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) - Vercel Labs official agent skills for Next.js, React, and edge deployment.
+- [vercel-labs/skills](https://github.com/vercel-labs/skills) - Extended Vercel Labs skill registry.
+- [agentskills](https://github.com/agentskills/agentskills) - Community-maintained registry of reusable agent skills.
+- [rodydavis/skills](https://github.com/rodydavis/skills) - Agent skills for Flutter, Dart, and cross-platform app development.
+- [google-labs-code/design.md](https://github.com/google-labs-code/design.md) - Google Labs design.md token definitions and UI agent skills.
+- [taste-skill](https://github.com/Leonxlnx/taste-skill) - Agent skill for UI taste and design quality review.
+- [google_style_guide_agent_skills](https://github.com/shawn-maybush/google_style_guide_agent_skills) - Agent skills that enforce Google style guides across languages.
+- [skillify-skill](https://github.com/kk-r/skillify-skill) - Meta-skill for scaffolding new agent skills from a template.
+- [claude-skills-automation](https://github.com/Toowiredd/claude-skills-automation) - Automation harness for running Claude Code skills in CI.
+- [agent-md](https://github.com/iamfakeguru/agent-md) - Cross-agent directive and hook harness; persistent handoff memory, Stop/PreToolUse gates, and Codex/Claude Code parity.
+- [okf-skills](https://github.com/scaccogatto/okf-skills) - Open Knowledge Format v0.2 skill bundles for agent knowledge graphs.
+
+### Anthropic Official
+
+- [claude-code](https://github.com/anthropics/claude-code) - Official Claude Code CLI and extension source.
+- [claude-code plugins](https://github.com/anthropics/claude-code/tree/main/plugins) - Official plugin directory inside the Claude Code repo.
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) - Anthropic's curated official Claude plugin registry.
+- [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) - Anthropic's knowledge-work plugins for Claude Code and Cursor.
+- [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) - Practical recipes for building with the Claude API.
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official agent skill definitions.
+- [claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python) - Python SDK for building Claude agents.
+- [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) - Interactive prompt engineering tutorial from Anthropic.
+
+### Google / Firebase
+
+- [google/ax](https://github.com/google/ax) - Google's agent experience (AX) framework and guidelines.
+- [google/eng-practices](https://github.com/google/eng-practices) - Google Engineering Practices documentation (code review, style).
+- [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) - Google Chrome's modern web development best-practice guidance.
+- [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) - Source for modern-web-guidance CLI tool.
+- [firebase-extensions](https://github.com/GoogleCloudPlatform/firebase-extensions) - Official Firebase Extensions for Cloud Functions and Firestore.
+- [react-firebase-starter](https://github.com/kriasoft/react-firebase-starter) - Boilerplate for building web applications with React and Firebase.
+- [graphql-starter-kit](https://github.com/kriasoft/graphql-starter-kit) - Monorepo boilerplate for Node.js + GraphQL API + React/Relay frontend.
+- [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils) - Useful UDFs, scripts, and views for Google BigQuery.
+- [python-bigquery](https://github.com/googleapis/python-bigquery) - Google Cloud BigQuery client library for Python.
+- [google-cloud-python](https://github.com/googleapis/google-cloud-python) - Google Cloud Python client libraries monorepo.
+- [spark-bigquery-connector](https://github.com/GoogleCloudDataproc/spark-bigquery-connector) - Apache Spark connector for Google BigQuery.
+
+### React Hooks & Libraries
+
+- [awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks) - Curated list of awesome React Hooks resources, libraries, and tools.
+- [react-use](https://github.com/streamich/react-use) - Collection of essential React hooks.
+- [swr](https://github.com/vercel/swr) - React Hooks for data fetching with stale-while-revalidate strategy.
+- [alibaba/hooks](https://github.com/alibaba/hooks) - High-quality and reliable React Hooks library.
+- [react-hook-form](https://github.com/react-hook-form/react-hook-form) - Performant, flexible and extensible forms with easy-to-use validation.
 
 ## Directories
 
 - [CursorList](https://cursorlist.com)
 - [CursorDirectory](https://cursor.directory/)
+- [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) - Curated collection of agent skills for AI coding assistants.
+- [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of awesome Claude Code commands, tips, tools, and extensions.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of awesome Model Context Protocol (MCP) servers.
+- [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Curated collection of design.md tokens and UI design systems for agents.
+- [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) - Composio's curated list of Claude Code skills and integrations.
+- [claude-skill-registry](https://github.com/majiayu000/claude-skill-registry) - Community registry of reusable Claude Code skills.
+- [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) - Learning resources and tutorials for Claude Code.
+- [awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) - Awesome cheatsheets for popular programming languages, frameworks and tools.
+- [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Guides, papers, lectures, and notebooks for prompt engineering.
+- [zszszzsz/.config](https://github.com/zszszszszz/.config) - Community dotfiles and agent configuration templates for Cursor and Claude Code.
 
 ## How to Use
 
