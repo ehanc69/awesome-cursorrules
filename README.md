@@ -76,6 +76,7 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
     - [Python &amp; ML](#python--ml)
     - [Chrome DevTools](#chrome-devtools)
     - [AST &amp; Code Analysis](#ast--code-analysis)
+    - [Agent UI &amp; Frameworks](#agent-ui--frameworks)
     - [React Hooks &amp; Libraries](#react-hooks--libraries)
   - [Directories](#directories)
   - [How to Use](#how-to-use)
@@ -431,6 +432,14 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [ast-grep.github.io](https://github.com/ast-grep/ast-grep.github.io) - Documentation site source for ast-grep.
 - [codemod](https://github.com/codemod/codemod) - Community-driven codemod registry and runner for large-scale code migrations.
 - [grep-ast](https://github.com/Aider-AI/grep-ast) - grep that understands code structure; shows relevant context around matches.
+
+### Agent UI & Frameworks
+
+- [google/adk-python](https://github.com/google/adk-python) - Google Agent Development Kit for Python; build, evaluate, and deploy multi-agent systems on Gemini.
+- [ag-ui](https://github.com/ag-ui-protocol/ag-ui) - AG-UI protocol: open standard for streaming agent state and events to frontend UIs.
+- [deep-agents-ui](https://github.com/langchain-ai/deep-agents-ui) - LangChain UI components for visualizing deep/multi-step agent runs.
+- [agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack) - Google Cloud production-ready starter pack for building and deploying GenAI agents.
+- [agent-ui](https://github.com/agno-agi/agent-ui) - Agno open-source UI for building and monitoring AI agent applications.
 
 ### React Hooks & Libraries
 
