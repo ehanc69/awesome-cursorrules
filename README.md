@@ -359,6 +359,9 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [google-mcp-servers](https://github.com/rominirani/google-mcp-servers) - Community Google MCP servers for Maps, Search, Calendar, and more.
 - [cloud-builders](https://github.com/GoogleCloudPlatform/cloud-builders) - Google Cloud Build builder images for CI/CD pipelines.
 - [oss-test-infra](https://github.com/GoogleCloudPlatform/oss-test-infra) - Google's open-source test infrastructure for cloud-native apps.
+- [cloud-sdk-docker](https://github.com/GoogleCloudPlatform/cloud-sdk-docker) - Official Docker images for the Google Cloud SDK; useful for reproducible agent/CI environments.
+- [terraform-google-gcloud](https://github.com/terraform-google-modules/terraform-google-gcloud) - Terraform module wrapping gcloud CLI commands for infrastructure automation.
+- [click-to-deploy](https://github.com/GoogleCloudPlatform/click-to-deploy) - Google Click-to-Deploy solutions for GCP Marketplace; reference configs for cloud agent deployments.
 
 ### React Hooks & Libraries
 
