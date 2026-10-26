@@ -402,6 +402,15 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [google-cloud-node](https://github.com/googleapis/google-cloud-node) - Google Cloud Node.js client libraries monorepo.
 - [nodejs-docs-samples](https://github.com/GoogleCloudPlatform/nodejs-docs-samples) - Official Google Cloud Node.js code samples for docs; reference for agent-generated GCP Node code.
 - [google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs) - Google Auth Library for Node.js; handles OAuth2, service accounts, and ADC for agent services.
+- [firebase-js-sdk](https://github.com/firebase/firebase-js-sdk) - Official Firebase JavaScript SDK for web and Node.js.
+- [firebase-php](https://github.com/beste/firebase-php) - Community Firebase PHP SDK.
+- [firebase-admin-node](https://github.com/firebase/firebase-admin-node) - Firebase Admin SDK for Node.js; server-side Firestore, Auth, and Storage writes.
+- [firebase-admin-python](https://github.com/firebase/firebase-admin-python) - Firebase Admin SDK for Python; server-side Firebase access from agent backends.
+- [firebase-admin-go](https://github.com/firebase/firebase-admin-go) - Firebase Admin SDK for Go.
+- [firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk) - Firebase SDK for iOS and macOS.
+- [firebaseui-web](https://github.com/firebase/firebaseui-web) - FirebaseUI drop-in auth UI for web apps.
+- [firebase-functions](https://github.com/firebase/firebase-functions) - Firebase SDK for Cloud Functions; event-driven server logic for Firebase projects.
+- [firebase-admin-java](https://github.com/firebase/firebase-admin-java) - Firebase Admin SDK for Java.
 
 ### Python & ML
 
@@ -427,6 +436,7 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [performance-stories](https://github.com/ChromeDevTools/performance-stories) - Reproducible performance test cases for Chrome DevTools profiling.
 - [timeline-viewer](https://github.com/ChromeDevTools/timeline-viewer) - Viewer for Chrome Performance timeline JSON traces.
 - [source-map-scopes-codec](https://github.com/ChromeDevTools/source-map-scopes-codec) - Encoder/decoder for the Source Map Scopes proposal.
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server; exposes DevTools Protocol to AI agents.
 
 ### AST & Code Analysis
 
