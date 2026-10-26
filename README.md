@@ -73,6 +73,9 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
     - [Skill Packs](#skill-packs)
     - [Anthropic Official](#anthropic-official)
     - [Google / Firebase](#google--firebase)
+    - [Python &amp; ML](#python--ml)
+    - [Chrome DevTools](#chrome-devtools)
+    - [AST &amp; Code Analysis](#ast--code-analysis)
     - [React Hooks &amp; Libraries](#react-hooks--libraries)
   - [Directories](#directories)
   - [How to Use](#how-to-use)
@@ -304,6 +307,11 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [fablize](https://github.com/fivetaku/fablize) - Story-mode agent orchestration and prompt toolkit.
 - [FableClaudeMD](https://github.com/TheColliny/FableClaudeMDForOpus) - Claude.md and agent rules tuned for long-form narrative (Opus).
 - [fable-mode](https://github.com/mrtooher/fable-mode) - Fable narrative mode rules for Cursor agents.
+- [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown linter and style checker for Node.js; commonly used in AI-generated doc pipelines.
+- [markdownlint (Ruby)](https://github.com/markdownlint/markdownlint) - Markdown lint tool written in Ruby; checks files against style rules.
+- [vscode-markdownlint](https://github.com/DavidAnson/vscode-markdownlint) - VS Code / Cursor extension for markdownlint.
+- [docker-archive/markdownlint](https://github.com/docker-archive/markdownlint) - Docker's archived markdownlint configuration for documentation standards.
+- [coc-markdownlint](https://github.com/fannheyward/coc-markdownlint) - coc.nvim extension for markdownlint linting in Neovim.
 
 ## Agent Skills & Collections
 
@@ -362,6 +370,67 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [cloud-sdk-docker](https://github.com/GoogleCloudPlatform/cloud-sdk-docker) - Official Docker images for the Google Cloud SDK; useful for reproducible agent/CI environments.
 - [terraform-google-gcloud](https://github.com/terraform-google-modules/terraform-google-gcloud) - Terraform module wrapping gcloud CLI commands for infrastructure automation.
 - [click-to-deploy](https://github.com/GoogleCloudPlatform/click-to-deploy) - Google Click-to-Deploy solutions for GCP Marketplace; reference configs for cloud agent deployments.
+- [google-cloud-php-firestore](https://github.com/googleapis/google-cloud-php-firestore) - Google Cloud Firestore client library for PHP.
+- [java-firestore](https://github.com/googleapis/java-firestore) - Google Cloud Firestore client library for Java.
+- [langchain-google-firestore-python](https://github.com/googleapis/langchain-google-firestore-python) - LangChain integration for Google Cloud Firestore (Python).
+- [nodejs-firestore](https://github.com/googleapis/nodejs-firestore) - Google Cloud Firestore client library for Node.js.
+- [gcloud-mcp](https://github.com/googleapis/gcloud-mcp) - Official Google Cloud MCP server exposing gcloud operations to AI agents.
+- [mcp-toolbox-sdk-python](https://github.com/googleapis/mcp-toolbox-sdk-python) - Python SDK for the Google MCP Toolbox; connect agents to Cloud APIs.
+- [genai-toolbox](https://github.com/googleapis/genai-toolbox) - Google GenAI Toolbox: reusable tools and skill adapters for Gemini and Vertex agents.
+- [google-cloud-php-developerconnect](https://github.com/googleapis/google-cloud-php-developerconnect) - PHP client for Google Cloud Developer Connect.
+- [cloud-code-samples](https://github.com/GoogleCloudPlatform/cloud-code-samples) - Sample apps and agent scaffolds for the Google Cloud Code IDE extension.
+- [workflows-samples](https://github.com/GoogleCloudPlatform/workflows-samples) - Sample Google Cloud Workflows orchestration scripts for agent pipelines.
+- [bank-of-anthos-scripts](https://github.com/GoogleCloudPlatform/bank-of-anthos-scripts) - Deployment scripts for the Bank of Anthos microservices demo.
+- [microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo) - Google's Online Boutique: reference microservices app on Kubernetes.
+- [gcp-hardening-toolkit](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit) - Security hardening toolkit and policy bundles for GCP environments.
+- [terraform-google-vertex-ai](https://github.com/GoogleCloudPlatform/terraform-google-vertex-ai) - Terraform modules for provisioning Google Cloud Vertex AI resources.
+- [genai-factory](https://github.com/GoogleCloudPlatform/genai-factory) - Opinionated scaffolding for GenAI agent services on GCP.
+- [magic-modules](https://github.com/GoogleCloudPlatform/magic-modules) - Source of truth for the Google Cloud Terraform provider and Ansible collections.
+- [terraformer](https://github.com/GoogleCloudPlatform/terraformer) - CLI to generate Terraform from existing cloud infrastructure (reverse Terraform).
+- [terraform](https://github.com/hashicorp/terraform) - HashiCorp Terraform: infrastructure-as-code for agent and cloud deployments.
+- [terraform-zero-to-hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) - Step-by-step Terraform course from zero to production-ready infrastructure.
+- [python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples) - Official Google Cloud Python code samples for docs; reference for agent-generated GCP Python code.
+- [buildpacks](https://github.com/GoogleCloudPlatform/buildpacks) - Google Cloud Buildpacks: detect and build containerized apps without Dockerfiles.
+- [cloud-run-pubsub-pull](https://github.com/GoogleCloudPlatform/cloud-run-pubsub-pull) - Sample: pull Pub/Sub messages from a Cloud Run service.
+- [cluster-toolkit](https://github.com/GoogleCloudPlatform/cluster-toolkit) - Google Cloud HPC/AI cluster provisioning toolkit using Terraform and Packer.
+- [pubsub](https://github.com/GoogleCloudPlatform/pubsub) - Google Cloud Pub/Sub samples and load testing tools.
+- [google/styleguide](https://github.com/google/styleguide) - Google's official style guides for C++, Java, Python, Go, Shell, and more; agent code style reference.
+- [deploy-cloudrun](https://github.com/google-github-actions/deploy-cloudrun) - GitHub Action to deploy containers to Google Cloud Run; CI/CD integration for agent services.
+- [terraform-google-three-tier-web-app](https://github.com/GoogleCloudPlatform/terraform-google-three-tier-web-app) - Terraform blueprint for a three-tier web app on GCP; reference for agent-facing cloud architecture.
+
+### Python & ML
+
+- [ty](https://github.com/astral-sh/ty) - Extremely fast Python type checker and language server from Astral.
+- [ruff](https://github.com/astral-sh/ruff) - Extremely fast Python linter and formatter, written in Rust.
+- [ruff-pre-commit](https://github.com/astral-sh/ruff-pre-commit) - pre-commit hooks for Ruff linting and formatting.
+- [ruff-vscode](https://github.com/astral-sh/ruff-vscode) - VS Code / Cursor extension for Ruff.
+- [ruff-action](https://github.com/astral-sh/ruff-action) - GitHub Action that runs Ruff on pull requests.
+- [ruff-lsp](https://github.com/astral-sh/ruff-lsp) - Language Server Protocol implementation for Ruff.
+- [python-uv](https://github.com/a5chin/python-uv) - Cursor rules and project template for Python projects managed with uv.
+- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) - All algorithms implemented in Python; reference for agent-generated algorithm code.
+- [Complete-Python-3-Bootcamp](https://github.com/Pierian-Data/Complete-Python-3-Bootcamp) - Jupyter notebooks for the Complete Python 3 Bootcamp course.
+- [awesome-python](https://github.com/vinta/awesome-python) - Curated list of awesome Python frameworks, libraries, and tools.
+- [pytorch](https://github.com/pytorch/pytorch) - PyTorch ML framework; reference for AI/ML agent code generation.
+
+### Chrome DevTools
+
+- [awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools) - Curated list of awesome Chrome DevTools resources, extensions, and integrations.
+- [devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend) - Chrome DevTools frontend source; reference for browser agent UI.
+- [devtools-protocol](https://github.com/ChromeDevTools/devtools-protocol) - Chrome DevTools Protocol specification; powers browser automation and MCP browser tools.
+- [debugger-protocol-viewer](https://github.com/ChromeDevTools/debugger-protocol-viewer) - Viewer for the Chrome Debugger Protocol spec.
+- [vite-plugin-devtools-json](https://github.com/ChromeDevTools/vite-plugin-devtools-json) - Vite plugin that serves a `devtools.json` for Chrome DevTools workspace mapping.
+- [performance-stories](https://github.com/ChromeDevTools/performance-stories) - Reproducible performance test cases for Chrome DevTools profiling.
+- [timeline-viewer](https://github.com/ChromeDevTools/timeline-viewer) - Viewer for Chrome Performance timeline JSON traces.
+- [source-map-scopes-codec](https://github.com/ChromeDevTools/source-map-scopes-codec) - Encoder/decoder for the Source Map Scopes proposal.
+
+### AST & Code Analysis
+
+- [ast-grep](https://github.com/ast-grep/ast-grep) - Fast structural search, lint, and rewriting tool based on AST patterns; used in MCP code analysis.
+- [ast-grep-mcp](https://github.com/ast-grep/ast-grep-mcp) - MCP server exposing ast-grep structural search to AI agents.
+- [ast-grep-vscode](https://github.com/ast-grep/ast-grep-vscode) - VS Code / Cursor extension for ast-grep structural search and refactoring.
+- [ast-grep.github.io](https://github.com/ast-grep/ast-grep.github.io) - Documentation site source for ast-grep.
+- [codemod](https://github.com/codemod/codemod) - Community-driven codemod registry and runner for large-scale code migrations.
+- [grep-ast](https://github.com/Aider-AI/grep-ast) - grep that understands code structure; shows relevant context around matches.
 
 ### React Hooks & Libraries
 
