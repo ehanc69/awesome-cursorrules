@@ -411,6 +411,9 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [firebaseui-web](https://github.com/firebase/firebaseui-web) - FirebaseUI drop-in auth UI for web apps.
 - [firebase-functions](https://github.com/firebase/firebase-functions) - Firebase SDK for Cloud Functions; event-driven server logic for Firebase projects.
 - [firebase-admin-java](https://github.com/firebase/firebase-admin-java) - Firebase Admin SDK for Java.
+- [snippets-web](https://github.com/firebase/snippets-web) - Official Firebase web code snippets used in Firebase documentation.
+- [firebase-studio/templates](https://github.com/firebase-studio/templates) - Firebase Studio project templates for bootstrapping Firebase apps.
+- [quickstart-js](https://github.com/firebase/quickstart-js) - Firebase JavaScript quickstart samples covering Auth, Firestore, Storage, and more.
 
 ### Python & ML
 
