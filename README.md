@@ -353,6 +353,12 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [python-bigquery](https://github.com/googleapis/python-bigquery) - Google Cloud BigQuery client library for Python.
 - [google-cloud-python](https://github.com/googleapis/google-cloud-python) - Google Cloud Python client libraries monorepo.
 - [spark-bigquery-connector](https://github.com/GoogleCloudDataproc/spark-bigquery-connector) - Apache Spark connector for Google BigQuery.
+- [cloud-run-button](https://github.com/GoogleCloudPlatform/cloud-run-button) - Add a Deploy to Cloud Run button to your README for one-click agent/service deployment.
+- [google/zx](https://github.com/google/zx) - Tool for writing better shell scripts in JavaScript; used widely in agent automation pipelines.
+- [A2UI](https://github.com/google/A2UI) - Google's Agent-to-UI framework for connecting AI agents to web interfaces.
+- [google-mcp-servers](https://github.com/rominirani/google-mcp-servers) - Community Google MCP servers for Maps, Search, Calendar, and more.
+- [cloud-builders](https://github.com/GoogleCloudPlatform/cloud-builders) - Google Cloud Build builder images for CI/CD pipelines.
+- [oss-test-infra](https://github.com/GoogleCloudPlatform/oss-test-infra) - Google's open-source test infrastructure for cloud-native apps.
 
 ### React Hooks & Libraries
 
