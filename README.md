@@ -375,6 +375,7 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [java-firestore](https://github.com/googleapis/java-firestore) - Google Cloud Firestore client library for Java.
 - [langchain-google-firestore-python](https://github.com/googleapis/langchain-google-firestore-python) - LangChain integration for Google Cloud Firestore (Python).
 - [nodejs-firestore](https://github.com/googleapis/nodejs-firestore) - Google Cloud Firestore client library for Node.js.
+- [firestore-bundle-builder](https://github.com/firebase/firestore-bundle-builder) - Tool for building Firestore data bundles to pre-cache query results on the client.
 - [gcloud-mcp](https://github.com/googleapis/gcloud-mcp) - Official Google Cloud MCP server exposing gcloud operations to AI agents.
 - [mcp-toolbox-sdk-python](https://github.com/googleapis/mcp-toolbox-sdk-python) - Python SDK for the Google MCP Toolbox; connect agents to Cloud APIs.
 - [genai-toolbox](https://github.com/googleapis/genai-toolbox) - Google GenAI Toolbox: reusable tools and skill adapters for Gemini and Vertex agents.
